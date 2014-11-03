@@ -6,22 +6,26 @@
 
 def categories():
   categories = (
+#core
+    ('paycheck'),
     ('food'),
-    ('medical'),
-    ('check'),
-    ('atm'),
-    ('insurance'),
     ('phone'),
     ('cable'),
+    ('car'),
+    ('home'),
+    ('stdntloan'),
+    ('insurance'),
+#other
+    ('medical'),
+    ('creditcard'),
     ('store'),
     ('entertainment'),
     ('vacation'),
-    ('car'),
-    ('creditcard'),
-    ('home'),
-    ('paycheck'),
-    ('stdntloan'),
+#bank transactions
+    ('check'),
+    ('atm'),
     ('transfer'),
+#misc
     ('misc_identified'),
     ('misc')
   )
@@ -154,6 +158,7 @@ def keywords():
     ('Protect Guardian','home','security'),
     ('Payment Pennsylvania-Ame','home','water'),
     ('Loan Paymt Lender','home','mortgage'),
+    ('LENDER LIVE','home','mortgage'),
     ('Firstenergy','home','electric'),
     ('American Water','home','water'),
     ('Gas Bill Peoples Natural','home','gas'),
@@ -179,7 +184,6 @@ def keywords():
     ('IRS','misc_identified','tax refund'),
     ('Jordantaxservice','misc_identified','tax'),
     ('Check Card Purchase Ecsi Carnegie Mellon','misc_identified','health ins'),
-    ('','',''),
 #misc
   )
 
