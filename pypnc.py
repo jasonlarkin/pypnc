@@ -129,7 +129,7 @@ def processActivity(keywords,categories,array):
       a = re.compile(str(keyword[0]),re.IGNORECASE)
 #      print "str(keyword[0]) = ", str(keyword[0])
 #      print "str(row[1]) = ", str(row[1])
-      print "a.search(str(row[1])) = ", a.search(str(row[1]))
+#      print "a.search(str(row[1])) = ", a.search(str(row[1]))
       if a.search(str(row[1])):
 #        print "row[1] = ", str(row[1])
         keyword_found = True
@@ -163,9 +163,9 @@ def processActivity(keywords,categories,array):
 #            print "idx_cat = ", idx_cat
 #            print "total_debit = ",total_debit[idx_cat]
 #            print "total_credit = ",total_credit[idx_cat]
-        print "idx_key = ", idx_key
-        print "len(keywords) = ", len(keywords)
-        print "keyword_found = ", keyword_found
+#        print "idx_key = ", idx_key
+#        print "len(keywords) = ", len(keywords)
+#        print "keyword_found = ", keyword_found
       elif keyword_found==False and idx_key == len(keywords)-1:
         print "unknown keyword = ", row
         if not str(row[3]): #DEBIT

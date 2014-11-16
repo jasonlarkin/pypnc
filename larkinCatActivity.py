@@ -57,6 +57,7 @@ def keywords():
     ('Chili','food','out'),
     ('Handel','food','out'),
     ('Duffys','food','beer'),
+    ('BEER-N-AT','food','beer'),
     ('Italian Village Pizza','food','out'),
     ('Jerome Bettis','food','out'),
     ('Lu Lus Noodles','food','out'),
@@ -77,6 +78,9 @@ def keywords():
     ('Red Robin','food','out'),
     ('Mrs. Fields','food','out'),
     ('Coal Fired','food','out'),
+    ('AUNTIE ANNE','food','out'),
+    ('VILLA FIK','food','out'),
+    ('NOODLES & CO','food','out'),
 #medical
     ('Jefferson Regional','medical','bill'),
     ('Kids Plus','medical','girls'),
@@ -109,6 +113,7 @@ def keywords():
     ('Wal-Mart','store','retail'),
     ('Radioshack','store','retail'),
     ('Toys R US','store','retail'),
+    ('BABIES R US','store','retail'),
 #entertainment
     ('The Little Gym','entertainment','girls'),
     ('Usc Recreation','entertainment','us'),
@@ -156,7 +161,9 @@ def keywords():
     ('Credit Card','creditcard','creditcard'),
 #home
     ('Protect Guardian','home','security'),
+    ('GUARDIAN PRO','home','security'),
     ('Payment Pennsylvania-Ame','home','water'),
+    ('PENNSYLVANIA-AME','home','water'),
     ('Loan Paymt Lender','home','mortgage'),
     ('LENDER LIVE','home','mortgage'),
     ('Firstenergy','home','electric'),
@@ -184,6 +191,7 @@ def keywords():
     ('IRS','misc_identified','tax refund'),
     ('Jordantaxservice','misc_identified','tax'),
     ('Check Card Purchase Ecsi Carnegie Mellon','misc_identified','health ins'),
+    ('PETERSTWP','misc_identified','recreation'),
 #misc
   )
 
