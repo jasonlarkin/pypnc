@@ -81,12 +81,26 @@ def keywords():
     ('AUNTIE ANNE','food','out'),
     ('VILLA FIK','food','out'),
     ('NOODLES & CO','food','out'),
+    ('THE PORCH','food','out'),
+    ('CHICK-FIL-A','food','out'),
+    ('CALIFORNIA PIZZA','food','out'),
+    ('MAX&ERMA-PETERSTOWNSHI','food','out'),
+    ('FIREHOUSE SUBS','food','out'),
+    ('BRAVO','food','out'),
+    ('EINSTEIN','food','out'),
+    ('GREEN LEAF','food','out'),
+    ('CARNEGIE MELLON ENTROP','food','out'),
+    ('CHEESECAKE FACTORY','food','out'),
+    ('WINE & SPIRITS','food','beer'),
 #medical
     ('Jefferson Regional','medical','bill'),
     ('Kids Plus','medical','girls'),
     ('Walgreens','medical','store'),
     ('South Hills Family','medical','girls'), 
     ('Jefferson Reg Med','medical','bill'),
+    ('MAGEE','medical','bill'),
+    ('UPMUNIV PGH PHYSICNS','medical','bill'),
+    ('LITTLE STAR ULTRASOUND','medical','girls'),
 #check
     ('CHECK', 'check', 'n/a'), 
 #atm
@@ -98,6 +112,7 @@ def keywords():
     ('Recurring Debit Card At&amp','phone','n/a'),
     ('At&amp;T*Bill','phone','n/a'),
     ('Recurring Check Card At','phone','n/a'),
+    ('SPRINT WIRELESS','phone','n/a'),
 #cable
     ('Verizon','cable','cable'),
 #store
@@ -114,6 +129,13 @@ def keywords():
     ('Radioshack','store','retail'),
     ('Toys R US','store','retail'),
     ('BABIES R US','store','retail'),
+    ('JCPENNEY STORE','store','retail'),
+    ('GYMBOREE','store','retail'),
+    ('KOHL','store','retail'),
+    ('BEST BUY','store','retail'),
+    ('H&M','store','retail'),
+    ('FAMOUS FOOTWEAR','store','retail'),
+    ('STRIDE RITE','store','retail'),
 #entertainment
     ('The Little Gym','entertainment','girls'),
     ('Usc Recreation','entertainment','us'),
@@ -121,6 +143,8 @@ def keywords():
     ('Redbox','entertainment','us'),
     ('Smart Toys','entertainment','girls'),
     ('Zoo','entertainment','girls'),
+    ('OAKLAND ADMISSIONS','entertainment','girls'),
+    ('Europe Nails And Spa','entertainment','us'),
 #vacation
     ('Dogfish Head','vacation','rehoboth'),
     ('Obies By The Sea','vacation','rehoboth'),
@@ -156,6 +180,10 @@ def keywords():
     ('Power Of','car','maintenance'),
     ('Sunoco','car','gas'),
     ('Exxonmobil','car','gas'),
+    ('ROMAN MOTOR','car','maintenance'),
+    ('PARKING IN PITTSBURGH','car','parking'),
+    ('AUTO PARTS','car','maintenance'),
+    ('STURMAN AND LARKIN','car','maintenance'),
 #creditcard
     ('Capital One','creditcard','creditcard'), 
     ('Credit Card','creditcard','creditcard'),
@@ -169,6 +197,7 @@ def keywords():
     ('Firstenergy','home','electric'),
     ('American Water','home','water'),
     ('Gas Bill Peoples Natural','home','gas'),
+    ('PEOPLES NATURAL','home','gas'),
 #paycheck
     ('Payroll Plansource','paycheck','jodi'), #monthly
     ('PLANSOURCE ADMIN PAYROLL','paycheck','jodi'), #Activity
@@ -192,6 +221,10 @@ def keywords():
     ('Jordantaxservice','misc_identified','tax'),
     ('Check Card Purchase Ecsi Carnegie Mellon','misc_identified','health ins'),
     ('PETERSTWP','misc_identified','recreation'),
+    ('JORDAN TAX','misc_identified','tax'),
+    ('PAYMENT FOR AMZ  STORECARD','misc_identified','amazon'),
+    ('INTEREST PAYMENT','misc_identified','misc'),
+    ('REPAIRCLINICCOM','misc_identified','misc'),
 #misc
   )
 
