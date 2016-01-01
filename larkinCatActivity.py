@@ -201,6 +201,7 @@ def keywords():
 #paycheck
     ('Payroll Plansource','paycheck','jodi'), #monthly
     ('PLANSOURCE ADMIN PAYROLL','paycheck','jodi'), #Activity
+    ('NAMSA','paycheck','jodi'), #Activity
     ('Quickbooks','paycheck','jason'),
 #student loans
     ('Stdnt Loan','stdntloan','jodi'),
@@ -209,6 +210,7 @@ def keywords():
     ('Transfer','transfer','misc'),
 #deposit
     ('Mobile Deposit', 'deposit', 'deposit'),
+    ('MOBILE DEPOSIT', 'deposit', 'deposit'),
 #misc_identified
     ('Paypal','misc_identified','paypal'),
     ('Dropbox','misc_identified','dropbox'),
