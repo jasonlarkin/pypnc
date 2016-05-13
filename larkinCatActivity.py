@@ -105,6 +105,10 @@ def keywords():
     ('CARNEGIE MELLON ENTROP','food','out'),
     ('CHEESECAKE FACTORY','food','out'),
     ('WINE & SPIRITS','food','beer'),
+    ('S SW GRILL','food','out'),
+    ('DRISCOLL & SONS CAFE','food','out'),
+    ('BLOOM BREW','food','out'),
+    ('ATRIAS','food','out'),
 #medical
     ('Jefferson Regional','medical','bill'),
     ('Kids Plus','medical','girls'),
@@ -163,6 +167,12 @@ def keywords():
     ('FAMOUS FOOTWEAR','store','retail'),
     ('STRIDE RITE','store','retail'),
     ('SHUTTERFLY','store','online'),
+    ('ZULILY','store','online'),
+    ('DOLRTREE','store','retail'),
+    ('SWEET & SASSY','store','retail'),
+    ('ETSYCOM','store','online'),
+    ('GROUPON INC','store','online'),
+    ('SCHOLASTIC BOOK CLUB','store','retail'),
 #entertainment
     ('CINEMARK THEATRES','entertainment','us'),
     ('ICE CASTLE','entertainment','girls'),
@@ -174,6 +184,7 @@ def keywords():
     ('Zoo','entertainment','girls'),
     ('OAKLAND ADMISSIONS','entertainment','girls'),
     ('Europe Nails And Spa','entertainment','us'),
+    ('PLANET BOUNCE','entertainment','girls'),
 #vacation
     ('Dogfish Head','vacation','rehoboth'),
     ('Obies By The Sea','vacation','rehoboth'),
@@ -201,6 +212,25 @@ def keywords():
     ('Paradies','business','jason'),
     ('Pik N Go','business','jason'),
     ('Farmers Market','business','jason'),
+    ('ADVANTAGE CAR','business','jason'),
+    ('CARNEGIE INSTITUTE PAR','business','jason'),
+    ('HUDSON NEWS','business','jason'),
+    ('BWIBOINGO WIRELESS','business','jason'),
+    ('MURPHYS PUB','business','jason'),
+    ('PHO CAFE','business','jason'),
+    ('HAMPTON INNS','business','jason'),
+    ('0841558 MACH 1 FOOD','business','jason'),
+    ('THE ESQUIRE LOUNGE','business','jason'),
+    ('HOMETOWN PANTRY','business','jason'),
+    ('POTBELLY #69','business','jason'),
+    ('COCA COLA HOUSTON PA','business','jason'),
+    ('HUDSONNEWS','business','jason'),
+    ('ADVANTAGE CAR','business','jason'),
+    ('0733387 7-ELEVEN','business','jason'),
+    ('UNITED      XXXXX4371','business','jason'),
+    ('AMERICAN AI XXXXX4381','business','jason'),
+    ('PGH AIRPORT','business','jason'),
+    ('HUDSON NEWS  ST847','business','jason'),
 #car
     ('PPAP NINTH & PENN','car','parking'),
     ('COGO','car','gas'),
@@ -219,6 +249,9 @@ def keywords():
     ('PARKING IN PITTSBURGH','car','parking'),
     ('AUTO PARTS','car','maintenance'),
     ('STURMAN AND LARKIN','car','maintenance'),
+    ('JPMORGAN CHASE','car','payment'),
+    ('CARNEGIE INSTITUTE PAR','car','parking'),
+    ('PTC EZ PASS AUTO RE','car','misc'),
 #creditcard
     ('Capital One','creditcard','creditcard'), 
     ('Credit Card','creditcard','creditcard'),
@@ -234,6 +267,8 @@ def keywords():
     ('American Water','home','water'),
     ('Gas Bill Peoples Natural','home','gas'),
     ('PEOPLES NATURAL','home','gas'),
+    ('TRUGREEN','home','lawn'),
+    ('WF HOME MTG','home','mortgage'),
 #paycheck
     ('Payroll Plansource','paycheck','jodi'), #monthly
     ('PLANSOURCE ADMIN PAYROLL','paycheck','jodi'), #Activity
@@ -272,6 +307,10 @@ def keywords():
     ('PAYMENT FOR AMZ  STORECARD','misc_identified','amazon'),
     ('INTEREST PAYMENT','misc_identified','misc'),
     ('REPAIRCLINICCOM','misc_identified','misc'),
+    ('PA COURTS FINE','misc_identified','misc'),
+    ('Kindle Unlimited','misc_identified','misc'),
+    ('GITHUBCOM','misc_identified','misc'),
+    
 #misc
   )
 
